@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.formulario {
+
+    width: 500px;
+    height: 600px;
+    display: column;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 2px solid rgb(218, 217, 217);
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+
+
+}
+
+.bloque-usuario {
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 40px;
+    top: 60px;
+    font-size: 23px;
+
+}
+
+.inputForm {
+
+
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgb(218, 217, 217);
+    padding: 10px;
+    border-radius: 10px;
+    left: 40px;
+    width: 80%;
+    position: relative;
+    top: 80px;
+}
+
+.input {
+
+
+    border: none;
+    width: 85%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.inputForm:focus-within {
+
+    border: 2px solid blue;
+}
+
+.passUser {
+
+    display: flex;
+    left: 40px;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    font-size: 23px;
+
+
+}
+
+.input-password {
+
+    display: flex;
+    left: 40px;
+    position: relative;
+    gap: 10px;
+    top: 150px;
+    border: 1px solid rgb(218, 217, 217);
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+.input-pass {
+
+    border: none;
+    width: 85%;
+
+}
+
+.input-pass:focus {
+
+    outline: none;
+}
+
+.input-password:focus-within {
+
+    border: 2px solid blue;
+}
+
+.checkbox {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 40px;
+    position: relative;
+    top: 170px;
+    gap: 15px;
+    cursor: pointer;
+
+}
+
+.checkbox input[type="checkbox"]:checked {
+
+    background-color: green;
+    border-color: green;
+}
+
+.span {
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 60%;
+    top: 150px;
+    cursor: pointer;
+    color: blue;
+
+}
+
+
+.btn {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 195px;
+    padding: 15px;
+    width: 80%;
+    align-items: center;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.sign-up {
+
+
+    display: flex;
+    flex-direction: column;
+    left: 25%;
+    position: relative;
+    top: 220px;
+}
+
+.login {
+
+    left: 53%;
+    position: relative;
+    top: 202px;
+    color: blue;
+    cursor: pointer;
+
+}
+
+.or {
+    position: relative;
+    left: 48%;
+    display: flex;
+    flex-direction: column;
+    top: 230px;
+
+
+}
+
+.btn-google {
+
+    border: 1px solid rgb(233, 229, 229);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 30%;
+    left: 30px;
+    top: 250px;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.google {
+
+    background-color: white;
+    border: none;
+}
+
+.btn-apple {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(233, 229, 229);
+    padding: 10px;
+    width: 30%;
+    left: 55%;
+    position: relative;
+    top: 210px;
+    border-radius: 10px;
+    gap: 8px;
+    cursor: pointer;
+
+}
+
+.apple {
+
+    background: white;
+    border: none;
+}
+
+
+
+
